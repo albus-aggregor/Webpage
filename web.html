@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">WEB <span>DEV</span></a>
+		<ul class="navigation">
+			<li><a href="#about">ABOUT US</a></li>
+			<li><a href="#services">SERVICES</a></li>
+			<li><a href="#portfolio">PORTFOLIO</a></li>
+			<li><a href="#testimonials">TESTIMONIALS</a></li>
+		</ul>
+	</header>
+<section class="banner">
+	<div class="content">
+		<h4>HELLO I'M <span> WEB DEVELOPER</span></h4>
+		<h2>William</h2>
+		<h2>Andersons</h2>
+		<p>As my technical side, I have leaned c,python,HTML,CSS,javascript and oracle <br>i am interested in working with develop webpage</p>
+		<a href="#" class="btn">HELP ME</a>
+		<a href="#" class="btn1">DOWNLOAD RESUME ></a>
+	</div>
+</section>
+<section class="about" id="about">
+	<div class="row">
+		<div class="col50">
+			<h4>ABOUT ME</h4>
+			<h2>You can't use up creativity.</h2>
+			<h2>The more you use. the more</h2>
+			<h2>you have in your signifant mind.</h2>
+			<p>Laurelyn Collins who pointed out the dual attribution and unlikely assignment to Wilde.It is our shame and our loss when we discourage people from being creative.Too often creativity is smothered rather than nurtured. There has to be a climate in which new ways of thinking, perceiving, questioning are encouraged. People also have to feel they are needed</p>
+			<a href="#" class="btn2">DOWNLOAD RESUME ></a>
+		</div>
+		<div class="col51">
+			<h2>Any type of question<br>& Discussion.</h2>
+			<p>Ideas among a teacher and students or among students for the purpose of furthering students thinking, learning, problem solving, understanding, or literary appreciation</p>
+			<a href="#" class="btn2">Discussion ></a>
+		</div>
+	</div>
+</section>
+<section class="services" id="services">
+	<div class="wrapper">
+		<h4 class="t">SKILLS</h4>
+		<h3 class="t">What Can I Do</h3>
+		<div class="cols">
+			<div class="col">
+				<h4>Illustrator</h4>
+				<p>An illustration is a decoration, interpretation or visual explanation of a text, concept or process, designed for integration in published media, such as posters, flyers, magazines, books, teaching materials, animations, video games and films. An illustration is typically created by an illustrator.</p>
+				<a href="#">Learn more ></a>
+			</div>
+			<div class="col">
+				<h4>UI/UX Designer</h4>
+				<p>In an Information Society marked by the user’s active participation, the interface becomes a fundamental element of interaction between people and the artifacts.Through the interface, user experiences can lead the way for a company and also for the entire market: companies must no longer only sell their products or services</p>
+				<a href="#">Learn more ></a>
+			</div>
+			<div class="col">
+				<h4>Logo Design</h4>
+				<p>The shape of your logo says a lot about your business. It can tell customers if you are friendly or serious, scientific or artistic, traditional or cutting edge. Just like logo colors, logo shapes have meaning and this article is here to help you learn about them. Next time you need a logo you’ll know exactly what shape to use.</p>
+				<a href="#">Learn more ></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="portfolio" id="portfolio">
+	<div class="title">
+		<h4 class="t">PORTFOLIO</h4>
+		<h3 class="t">My Work Recently</h3>
+		<ul class="nav">
+			<li><a href="#">All</a></li>
+			<li><a href="#">Illustrator</a></li>
+			<li><a href="#">UI/UX</a></li>
+			<li><a href="#">Logo</a></li>
+		</ul>
+	</div>
+		<div class="box">
+			<div class="imgBx">
+				 <img src="html.jpg">
+			</div>
+			<div class="imgBx">
+				<img src="angular.jpg">
+			</div>
+			<div class="imgBx">
+				<img src="react.png">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="testimonials" id="testimonials">
+	<div class="row">
+		<div class="col52">
+			<h4>TESTIMONIALS</h4>
+			<h2>What they say<br>about me</h2>
+			<p>Laurelyn Collins who pointed out the dual attribution and unlikely assignment to Wilde.It is our shame and our loss when we discourage people from being creative.Too often creativity is smothered rather than nurtured.</p>
+			<a href="#" class="btn2">DOWNLOAD RESUME ></a>
+		</div>
+		<div class="col53">
+			<div class="internal">
+				<img src="html.jpg" width="100%">
+				HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. 
+				<h3>Evaulation</h3>
+				<p>display on the Internet</p>
+			</div>
+			<div class="internal1">
+				<img src="angular.jpg" width="100%">
+				HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet.
+				<h3>Evaulation</h3>
+				<p>display on the Internet</p>
+			</div>
+			<div class="internal2">
+				<img src="react.png" width="100%">
+				HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. 
+				<h3>Evaulation</h3>
+				<p>display on the Internet</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="contact">
+	<div class="content">
+		<div class="box">
+			<h5 class="t">PORTFOLIO</h5>
+			<h3 class="t">Let's talk,and make</h3>
+			<h3 class="t">something great</h3>
+			<a href="#" class="btn">CONTACT US</a>
+			<h4 class="h">WEB DEV</h4>
+			<p>email id abcdd!@#$@gmail.com| phone.no:123456789</p>
+		</div>
+	</div>
+</section>
+<script type="text/javascript">
+	window.addEventListener('scroll',function(){
+		const header=document.querySelector('header');
+		header.classList.toggle("sticky",window.scrolly > 0);
+	});
+</script>
+</body>
+</html>
